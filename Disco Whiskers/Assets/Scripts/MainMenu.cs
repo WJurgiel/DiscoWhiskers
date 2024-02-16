@@ -13,27 +13,17 @@ public class MainMenu : MonoBehaviour
     float current_time = 0f;
     float alpha = 255;
     UnityEngine.UI.Image img;
+
+    
+    
     private void Start()
     {
-        // gm_panel.GetComponent<UnityEngine.UI.Image>().color = new Color(0,0,0, alpha);
-        /*img = gm_panel.GetComponent<UnityEngine.UI.Image>();*/
         StartCoroutine(deactivatePanel());
+
     }
 
     private void Update()
     {
-        //if (current_time > interval && alpha > 0) 
-        //{
-        //    alpha--;
-        //    img.color = new Color(0, 0, 0, alpha);
-        //    current_time = 0;
-        //    Debug.Log(img.color);
-        //}
-        //else
-        //{
-        //    current_time += Time.deltaTime;
-        //}
-
   
     }
 
