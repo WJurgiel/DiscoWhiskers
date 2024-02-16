@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 78922501}
   - component: {fileID: 78922500}
+  - component: {fileID: 78922502}
   m_Layer: 0
   m_Name: dogfriend2
   m_TagString: Untagged
@@ -207,6 +208,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &78922502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78922499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0be0d906df4c24da5705232f862d50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyframes:
+  - {fileID: 1932064251, guid: bfb389a1ab63d8c4f81e571f1e2f7e6a, type: 3}
+  - {fileID: -627363017, guid: bfb389a1ab63d8c4f81e571f1e2f7e6a, type: 3}
+  offset: 0.2
 --- !u!1 &158687385
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,6 +403,7 @@ GameObject:
   - component: {fileID: 250101398}
   - component: {fileID: 250101397}
   - component: {fileID: 250101399}
+  - component: {fileID: 250101400}
   m_Layer: 0
   m_Name: cat
   m_TagString: Untagged
@@ -454,12 +472,12 @@ Transform:
   m_GameObject: {fileID: 250101396}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.98, y: -2.6, z: 0}
-  m_LocalScale: {x: 0.7908, y: 0.7459414, z: 1}
+  m_LocalPosition: {x: 5.24, y: -2.64, z: 0}
+  m_LocalScale: {x: 1.4356973, y: 1.3542566, z: 1.8155}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 249.1328}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!111 &250101399
 Animation:
   m_ObjectHideFlags: 0
@@ -476,6 +494,22 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &250101400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250101396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0be0d906df4c24da5705232f862d50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyframes:
+  - {fileID: -1659134084, guid: f057dc555a7bfa441a38f9ad0883f925, type: 3}
+  - {fileID: -624072293, guid: f057dc555a7bfa441a38f9ad0883f925, type: 3}
+  offset: 0.1
 --- !u!1 &375168083
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,6 +521,7 @@ GameObject:
   - component: {fileID: 375168085}
   - component: {fileID: 375168084}
   - component: {fileID: 375168086}
+  - component: {fileID: 375168087}
   m_Layer: 0
   m_Name: blackdog
   m_TagString: Untagged
@@ -577,6 +612,22 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &375168087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375168083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0be0d906df4c24da5705232f862d50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyframes:
+  - {fileID: 1681650113, guid: ccb94afcfcee15144b7c35e9ea26c578, type: 3}
+  - {fileID: 1385379277, guid: ccb94afcfcee15144b7c35e9ea26c578, type: 3}
+  offset: 0.3
 --- !u!1 &390393220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1939,6 +1990,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2000161526}
   - component: {fileID: 2000161525}
+  - component: {fileID: 2000161527}
   m_Layer: 0
   m_Name: dogfriend1
   m_TagString: Untagged
@@ -2013,6 +2065,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2000161527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000161524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0be0d906df4c24da5705232f862d50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyframes:
+  - {fileID: 1932064251, guid: bfb389a1ab63d8c4f81e571f1e2f7e6a, type: 3}
+  - {fileID: -627363017, guid: bfb389a1ab63d8c4f81e571f1e2f7e6a, type: 3}
+  offset: 0.2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
